@@ -9,6 +9,8 @@ using namespace std;
 
 int main() {
     int n;
+    int zero = 0;
+
     cout << "Please enter a number from where to countdown has to start." << endl;
     cin >> n;
 
@@ -22,6 +24,8 @@ int main() {
         cout << n << endl;
       }
     }
+
+    cout << zero << endl;
 
     return 0;
 }
