@@ -18,14 +18,18 @@ int main() {
       if (n % 5 == 0) {
         cout << n << endl;
         cout << "Beep" << endl;
-
-      }
+        }
       else {
         cout << n << endl;
-      }
+        }
+        /* Excluding 0 from startpoint does not work yet.
+        if (n = 0) {
+          cout << "Please enter a number above 0." << endl;
+          }
+          else {
+            cout << zero << endl;
+            }
+        /**/
     }
-
-    cout << zero << endl;
-
     return 0;
 }
