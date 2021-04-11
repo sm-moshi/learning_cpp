@@ -5,3 +5,4 @@ Done until now:
 - Conditionals and Loops
 - Data Types, Arrays and Pointers
 - Functions
+- Classes and Objects (in Progress)
