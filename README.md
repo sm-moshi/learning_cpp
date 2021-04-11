@@ -4,3 +4,4 @@ Done until now:
 - Basic Concepts
 - Conditionals and Loops
 - Data Types, Arrays and Pointers
+- Functions
