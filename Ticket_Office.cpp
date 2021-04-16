@@ -12,7 +12,7 @@ int main() {
         int price = 50;
         min = ages[0];
 
-        cout << "Please enter the age of each person of your group:" << endl;
+        cout << "Please enter the age of each person of your group - separated by a single space:" << endl;
         for (int i = 0; i < 5; ++i) {
                 cin >> ages[i];
         }

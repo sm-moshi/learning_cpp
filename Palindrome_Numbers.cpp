@@ -19,13 +19,14 @@ bool isPalindrome(int x) {
 
 int main() {
         int n;
+        cout << "Please enter a number to check if it's a palindrome!" << endl;
         cin >>n;
 
         if(isPalindrome(n)) {
-                cout << n <<" is a palindrome";
+                cout << n << " is a palindrome!" << endl;
         }
         else {
-                cout << n <<" is NOT a palindrome";
+                cout << n << " is NOT a palindrome!" << endl;
         }
         return 0;
 }
