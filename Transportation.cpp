@@ -16,13 +16,10 @@ int main() {
         int passengers_left = passengers % seats;
         int seats_left = seats - passengers_left;
 
-        cout << "" << endl;
-
-        cout << "The number of empty seats the last bus will have:" << endl;
+        cout << "\nThe number of empty seats the last bus will have:" << endl;
         cout << seats_left << endl;
 
-        cout << "" << endl;
-        cout << "This was a fun start." << endl;
+        cout << "\nThis was a fun start." << endl;
 
         return 0;
 }
