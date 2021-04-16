@@ -1,6 +1,6 @@
 /*
    "You need to make a countdown app."
-   "Given a number N as input, output numbers from N to 1 on seperate lines."
+   "Given a number N as input, output numbers from N to 1 on separate lines."
    "Also, when the current countdown is a multiple of 5, the app should output "Beep"."
    /**/
 
@@ -11,25 +11,22 @@ int main() {
         int n;
         int zero = 0;
 
-        cout << "Please enter a number from where to countdown has to start." << endl;
+        cout << "Please enter a number from where to countdown has to start:\n" << endl;
         cin >> n;
+        cout << "\n" << endl;
 
         for (n; n > 0; n--) {
                 if (n % 5 == 0) {
                         cout << n << endl;
-                        cout << "Beep" << endl;
+                        cout << "\nBeep\n" << endl;
                 }
-                else {
+                else /* if (n % 5 >=1) /**/ {
                         cout << n << endl;
                 }
                 /* Excluding 0 from startpoint does not work yet.
-                   if (n = 0) {
+                else {
                    cout << "Please enter a number above 0." << endl;
-                   }
-                   else {
-                    cout << zero << endl;
-                    }
-                   /**/
+                } /**/
         }
         return 0;
 }
