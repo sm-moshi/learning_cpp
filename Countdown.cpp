@@ -7,20 +7,27 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
         int n;
         int zero = 0;
 
-        cout << "Please enter a number from where to countdown has to start:\n" << endl;
+        cout << "Please enter a number from where to countdown has to start:\n"
+             << endl;
         cin >> n;
-        cout << "\n" << endl;
+        cout << "\n"
+             << endl;
 
-        for (n; n > 0; n--) {
-                if (n % 5 == 0) {
+        for (n; n > 0; n--)
+        {
+                if (n % 5 == 0)
+                {
                         cout << n << endl;
-                        cout << "\nBeep\n" << endl;
+                        cout << "\nBeep\n"
+                             << endl;
                 }
-                else /* if (n % 5 >=1) /**/ {
+                else /* if (n % 5 >=1) /**/
+                {
                         cout << n << endl;
                 }
                 /* Excluding 0 from startpoint does not work yet.
